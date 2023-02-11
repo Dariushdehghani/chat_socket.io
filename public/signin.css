@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+body {
+    color: white;
+    background-color: rgb(39, 39, 39);
+    font-family:sans-serif;
+}
+input {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    outline: none;
+}
+h1 {
+    cursor: default;
+}
+#form {
+    margin: 10px;
+}
+#news {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: default;
+}
+#empty {
+    text-align: center;
+    color: gray;
+}
+@keyframes input_hover {
+    0% {box-shadow: none;}
+    100% {box-shadow: 2px 2px 10px gray;}
+}
+input:hover {
+    animation: input_hover 1s;
+    box-shadow: 2px 2px 10px gray;
+}
+#send_btn {
+    background-color:rgb(39, 39, 39);
+    color:gray;
+    border: 1px solid gray;
+    border-radius: 15%;
+    text-align: center;
+}
+#context_of_input {
+    background-color: #303030;
+    border-top: 1px solid gray;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#massage_text {
+    width: 90%;
+    text-align: left;
+}
+#massages {
+    position: fixed;
+    bottom: 67px;
+    top: 74.18px;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    background-color: #252525;
+}
+#first_screen {
+    display: block;
+}
+#chat {
+    display: none;
+}
+.navbar {
+    margin: 0;
+    background-color: #303030;
+    border-bottom: 1px solid gray;
+}
+#name_context {
+    margin-bottom: 8px;
+}
+#my_massage{
+    background-color: aquamarine;
+    color: #252525;
+    text-align: right;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    width: fit-content;
+    margin: 8px;
+}
+#their_massage {
+    background-color: #303030;
+    text-align: left;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    width: fit-content;
+    margin: 8px;
+}
+#contact {
+    background-color: #303030;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+#contacts {
+    display: none;
+}
+#back_from_contacts_btn {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    background-color: #303030;
+    border: 1px solid gray;
+    color: white;
+}
+#add_btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    color: white;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    font-size: large;
+}
+a {
+    color: aquamarine;
+}
+#login_scr {
+    display: none;
+}
+#add_a_contact_scr {
+    display: none;
+    
+}
